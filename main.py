@@ -17,10 +17,6 @@ class Drone():
         self.x = keyframes[0]["x"]
         self.y = keyframes[0]["y"]
         self.z = keyframes[0]["z"]
-        self.vx = 0
-        self.vy = 0
-        self.vz = 0
-        self.v = 0
 
     def update(self, t):
         for a, b in zip(self.keyframes, self.keyframes[1:]):
