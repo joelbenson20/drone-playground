@@ -1,6 +1,6 @@
 # Drone Playground
 
-A 2D drone swarm simulator built with [pygame-ce](https://pyga.me/). Drones fly through a 3D world (x, y, z), drawn on screen with perspective projection: drones farther away (higher z) look smaller and drift toward the center of the view, the way they would through a real camera.
+A drone swarm simulator built with [pygame-ce](https://pyga.me/). Drones fly through a 3D world (x, y, z), drawn on screen with perspective projection: drones farther away (higher z) look smaller and drift toward the center of the view, the way they would through a real camera.
 
 Swarm choreography is loaded from JSON "composition" files, where each drone follows a scripted route of timed keyframes.
 
